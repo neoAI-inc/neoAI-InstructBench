@@ -1,0 +1,75 @@
+{
+  "total_prompts": 100,
+  "prompt_passes": 67,
+  "prompt_accuracy": 0.67,
+  "total_instructions": 326,
+  "instruction_passes": 288,
+  "instruction_accuracy": 0.8834355828220859,
+  "closed_total": 87,
+  "closed_passes": 67,
+  "closed_accuracy": 0.7701149425287356,
+  "open_total": 239,
+  "open_passes": 221,
+  "open_accuracy": 0.9246861924686193,
+  "prompt_accuracy_by_inst_count": {
+    "2": {
+      "total": 34,
+      "passes": 21,
+      "accuracy": 0.6176470588235294
+    },
+    "3": {
+      "total": 26,
+      "passes": 20,
+      "accuracy": 0.7692307692307693
+    },
+    "4": {
+      "total": 20,
+      "passes": 12,
+      "accuracy": 0.6
+    },
+    "5": {
+      "total": 20,
+      "passes": 14,
+      "accuracy": 0.7
+    }
+  },
+  "instruction_accuracy_by_category": {
+    "Content": {
+      "total": 67,
+      "passes": 56,
+      "accuracy": 0.835820895522388
+    },
+    "Creativity": {
+      "total": 65,
+      "passes": 62,
+      "accuracy": 0.9538461538461539
+    },
+    "Format": {
+      "total": 64,
+      "passes": 51,
+      "accuracy": 0.796875
+    },
+    "Situation": {
+      "total": 63,
+      "passes": 58,
+      "accuracy": 0.9206349206349206
+    },
+    "Style": {
+      "total": 67,
+      "passes": 61,
+      "accuracy": 0.9104477611940298
+    }
+  },
+  "instruction_accuracy_by_eval_type": {
+    "closed": {
+      "total": 87,
+      "passes": 67,
+      "accuracy": 0.7701149425287356
+    },
+    "open": {
+      "total": 239,
+      "passes": 221,
+      "accuracy": 0.9246861924686193
+    }
+  }
+}

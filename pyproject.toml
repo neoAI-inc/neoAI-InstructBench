@@ -1,0 +1,19 @@
+[project]
+name = "neoai-instructbench"
+version = "0.1.0"
+description = ""
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "ja-ginza>=5.2.0",
+    "openrouter>=0.0.19",
+    "python-dotenv>=1.2.1",
+    "pyyaml>=6.0.3",
+    "spacy>=3.8.8",
+    "openai>=2.7.1",
+]
+
+[dependency-groups]
+dev = [
+    "types-pyyaml>=6.0.12.20250915",
+]
