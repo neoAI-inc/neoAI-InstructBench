@@ -1,5 +1,7 @@
 # neoAI-InstructBench
 
+[![Paper](https://img.shields.io/badge/Paper-NLP2026-blue)](https://anlp.jp/proceedings/annual_meeting/2026/pdf_dir/B9-4.pdf)
+
 A Japanese benchmark for evaluating LLMs' ability to follow complex, multi-constraint instructions based on real-world scenarios.
 
 ## Usage
